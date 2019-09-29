@@ -3,7 +3,7 @@ FROM liksi/ansible:2.8.5-ubuntu18.04
 MAINTAINER Liksi <info@liksi.fr>
 
 ARG TERRAFORM_INVENTORY_VERSION=v0.9
-ARG TERRAFORM_VERSION=0.11.14
+ARG TERRAFORM_VERSION=0.12.9
 
 RUN apt-get update \
     && apt-get install -y curl unzip \
