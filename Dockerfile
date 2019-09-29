@@ -1,4 +1,4 @@
-FROM liksi/ansible:2.8.2-ubuntu18.04
+FROM liksi/ansible:2.8.5-ubuntu18.04
 
 MAINTAINER Liksi <info@liksi.fr>
 
